@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A47907AF2931D85300C14DF3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47907AE2931D85300C14DF3 /* main.swift */; };
+		A4E00E18293342E100C0A7A2 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E00E17293342E100C0A7A2 /* StudentModel.swift */; };
+		A4E00E1A29334B0C00C0A7A2 /* StudentsGradeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E00E1929334B0C00C0A7A2 /* StudentsGradeManager.swift */; };
+		A4E00E1D29334D0100C0A7A2 /* StringConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E00E1C29334D0100C0A7A2 /* StringConstant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		A47907AB2931D85300C14DF3 /* Wanted_Homework */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Wanted_Homework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47907AE2931D85300C14DF3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A4E00E17293342E100C0A7A2 /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
+		A4E00E1929334B0C00C0A7A2 /* StudentsGradeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsGradeManager.swift; sourceTree = "<group>"; };
+		A4E00E1C29334D0100C0A7A2 /* StringConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,20 @@
 		A47907AD2931D85300C14DF3 /* Wanted_Homework */ = {
 			isa = PBXGroup;
 			children = (
+				A4E00E1B29334CF400C0A7A2 /* Constant */,
 				A47907AE2931D85300C14DF3 /* main.swift */,
+				A4E00E17293342E100C0A7A2 /* StudentModel.swift */,
+				A4E00E1929334B0C00C0A7A2 /* StudentsGradeManager.swift */,
 			);
 			path = Wanted_Homework;
+			sourceTree = "<group>";
+		};
+		A4E00E1B29334CF400C0A7A2 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				A4E00E1C29334D0100C0A7A2 /* StringConstant.swift */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +137,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E00E1D29334D0100C0A7A2 /* StringConstant.swift in Sources */,
 				A47907AF2931D85300C14DF3 /* main.swift in Sources */,
+				A4E00E18293342E100C0A7A2 /* StudentModel.swift in Sources */,
+				A4E00E1A29334B0C00C0A7A2 /* StudentsGradeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
