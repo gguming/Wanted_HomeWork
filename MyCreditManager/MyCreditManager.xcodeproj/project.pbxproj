@@ -63,6 +63,7 @@
 		05DD7B18293465DF0063E1A1 /* MyCreditManager */ = {
 			isa = PBXGroup;
 			children = (
+				A45667272934EA4000ED8604 /* Util */,
 				05DD7B20293465FE0063E1A1 /* Constant */,
 				05DD7B19293465DF0063E1A1 /* main.swift */,
 				05DD7B232934663F0063E1A1 /* StudentModel.swift */,
@@ -77,6 +78,13 @@
 				05DD7B212934660F0063E1A1 /* StringConstant.swift */,
 			);
 			path = Constant;
+			sourceTree = "<group>";
+		};
+		A45667272934EA4000ED8604 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +271,7 @@
 		05DD7B1E293465DF0063E1A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZY7J8GW45P;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -274,6 +283,7 @@
 		05DD7B1F293465DF0063E1A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZY7J8GW45P;
 				ENABLE_HARDENED_RUNTIME = YES;
